@@ -16,7 +16,7 @@ rdist<-function(x,p)
   {
     a=p[1]
     b=b+p[2]
-    for(i in 2:n-1)
+    for(i in 2:n)
     {
       if((r>=a) & (r <=b))
       {
